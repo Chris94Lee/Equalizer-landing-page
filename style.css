@@ -1,16 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&family=Outfit:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
 
 body{
     margin: 0 auto;
     font-family: 'IBM Plex Sans', sans-serif;
+    background-color: #FCFAF9;
+}
+
+main{
+    position: relative;
+    overflow: hidden;
+}
+
+p{
+    line-height: 1.6rem;
 }
 
 .logo{
     margin: 1.5rem;
 }
 
+.mobile-background{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -250px;
+    margin: auto;
+}
+
 .top-container{
     margin: 1.5rem;
+    padding-bottom: 10.375rem;
 }
 
 .content{
@@ -31,6 +50,14 @@ body{
     left: 0;
     top: -4.7rem;
     margin: auto;
+    z-index: 1;
+}
+
+.bg-pattern-two{
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;    
 }
 
 .content-lower{
@@ -42,6 +69,19 @@ body{
     flex-direction: column;
 }
 
+.price-container{
+    display: flex;
+    align-items: center;
+}
+
+.price, .price-value{
+    margin: 2rem 0 3rem 0;
+}
+
+.price-value{
+    font-size: 62px;
+    font-weight: bold;
+}
 
 .ios, .android{
     width: 100%;
@@ -50,6 +90,8 @@ body{
     align-self: center;
     border-radius: 15px;
     border: none;
+    cursor: pointer;
+    font-weight: bold;
 }
 
 .ios{
@@ -60,4 +102,21 @@ body{
 .android{
     background-color: #FCFAF9;
     color: #191826;
+}
+
+footer{
+    padding: 4rem 1.5rem 4rem 1.5rem;
+}
+
+.email{
+    font-weight: bold;
+}
+
+.socialMedia{
+    display: flex;
+    flex-direction: row;
+}
+
+.socialMedia > img{
+    margin-right: 1.25rem;
 }
