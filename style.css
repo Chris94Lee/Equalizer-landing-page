@@ -35,12 +35,13 @@ p{
 .content{
     background-color: #191826;
     border-radius: 10px;
+    position: relative;
 }
 
 .content-upper{
     position: relative;
     height: 23.75rem;
-    
+    overflow: hidden;
 }
 
 .illustration{
@@ -92,6 +93,9 @@ p{
     border: none;
     cursor: pointer;
     font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .ios{
@@ -102,6 +106,11 @@ p{
 .android{
     background-color: #FCFAF9;
     color: #191826;
+}
+
+button > img {
+    margin-bottom: 4px;
+    margin-right: 0.5rem;
 }
 
 footer{
