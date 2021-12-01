@@ -90,6 +90,10 @@ p {
   margin: 2rem 0 3rem 0;
 }
 
+.price{
+    margin-left: 1.2rem;
+}
+
 .price-value {
   font-size: 62px;
   font-weight: bold;
@@ -219,16 +223,62 @@ footer {
         padding: 0 8rem;
     }
 
+    header{
+        overflow: visible;
+    }
+
+    .bg-pattern-1{
+        right: -8rem;
+    }
+
     .logo{
         margin-left: 0;
     }
 
     .top-container{
         margin: 0;
+        width: 53.5rem;
+        padding-bottom: 16rem;
+    }
+
+    h1{
+        font-size: 5.5rem;
+        line-height: 5.5rem;
+    }
+
+    h2{
+        font-size: 2.5rem;
     }
 
     .content{
         width: auto;
+        
+    }
+
+    .illustration{
+        width: 19.5rem;
+        top: -12rem;
+    }
+
+    .content-upper{
+        overflow: visible;
+    }
+
+    .bg-pattern-two{
+        left: 30%;
+        margin: 0;
+    }
+
+    .content-lower{
+        left: 50%;
+        width: 25rem;
+        top: 15%;
+    }
+
+    .content-lower > p {
+        font-size: 1.25rem;
+        line-height: 2.125rem;
+        margin-top: 0;
     }
 
     footer{
@@ -244,6 +294,11 @@ footer {
 
     .logo-footer{
         align-self: center;
+    }
+
+    .footer-left > p {
+        width: 22.5rem;
+        margin-left: 8.125rem;
     }
 
 }
